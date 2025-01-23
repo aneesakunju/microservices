@@ -16,8 +16,11 @@ LoggerService: 8082
 EurekaServer: 8761
 
 Java 21 and Spring Boot 3.4.1 are used.
+
 Example POST request http://localhost:8080/shuffle with request body:
+
 { "number" : "10" }
+
 returns the following output: [1, 6, 2, 9, 8, 3, 5, 10, 7, 4]
 
 where:  1 <= number <= 1000.
